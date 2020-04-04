@@ -1,0 +1,219 @@
+@font-face {
+  font-family: 'OpenSansBold';
+  font-display: swap;
+  src: url("../fonts/OpenSansBold/OpenSansBold.eot");
+  src: local("O"), url("../fonts/OpenSansBold/OpenSansBold.woff") format("woff"),
+    url("../fonts/OpenSansBold/OpenSansBold.ttf") format("truetype"),
+    url("../fonts/OpenSansBold/OpenSansBold.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'OpenSansBoldItalic';
+  font-display: swap;
+  src: url("../fonts/OpenSansBoldItalic/OpenSansBoldItalic.eot");
+  src: local("O"), url("../fonts/OpenSansBoldItalic/OpenSansBoldItalic.woff") format("woff"),
+    url("../fonts/OpenSansBoldItalic/OpenSansBoldItalic.ttf") format("truetype"),
+    url("../fonts/OpenSansBoldItalic/OpenSansBoldItalic.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'OpenSansExtraBold';
+  font-display: swap;
+  src: url("../fonts/OpenSansExtraBold/OpenSansExtraBold.eot");
+  src: local("O"), url("../fonts/OpenSansExtraBold/OpenSansExtraBold.woff") format("woff"),
+    url("../fonts/OpenSansExtraBold/OpenSansExtraBold.ttf") format("truetype"),
+    url("../fonts/OpenSansExtraBold/OpenSansExtraBold.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'OpenSansExtraBoldItalic';
+  font-display: swap;
+  src: url("../fonts/OpenSansExtraBoldItalic/OpenSansExtraBoldItalic.eot");
+  src: local("O"), url("../fonts/OpenSansExtraBoldItalic/OpenSansExtraBoldItalic.woff") format("woff"),
+    url("../fonts/OpenSansExtraBoldItalic/OpenSansExtraBoldItalic.ttf") format("truetype"),
+    url("../fonts/OpenSansExtraBoldItalic/OpenSansExtraBoldItalic.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'OpenSansExtraBoldItalic';
+  font-display: swap;
+  src: url("../fonts/OpenSansExtraBoldItalic/OpenSansExtraBoldItalic.eot");
+  src: local("O"), url("../fonts/OpenSansExtraBoldItalic/OpenSansExtraBoldItalic.woff") format("woff"),
+    url("../fonts/OpenSansExtraBoldItalic/OpenSansExtraBoldItalic.ttf") format("truetype"),
+    url("../fonts/OpenSansExtraBoldItalic/OpenSansExtraBoldItalic.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'OpenSansItalic';
+  font-display: swap;
+  src: url("../fonts/OpenSansItalic/OpenSansItalic.eot");
+  src: local("O"), url("../fonts/OpenSansItalic/OpenSansItalic.woff") format("woff"),
+    url("../fonts/OpenSansItalic/OpenSansItalic.ttf") format("truetype"),
+    url("../fonts/OpenSansItalic/OpenSansItalic.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'OpenSansLight';
+  font-display: swap;
+  src: url("../fonts/OpenSansLight/OpenSansLight.eot");
+  src: local("O"), url("../fonts/OpenSansLight/OpenSansLight.woff") format("woff"),
+    url("../fonts/OpenSansLight/OpenSansLight.ttf") format("truetype"),
+    url("../fonts/OpenSansLight/OpenSansLight.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'OpenSansLightItalic';
+  font-display: swap;
+  src: url("../fonts/OpenSansLightItalic/OpenSansLightItalic.eot");
+  src: local("O"), url("../fonts/OpenSansLightItalic/OpenSansLightItalic.woff") format("woff"),
+    url("../fonts/OpenSansLightItalic/OpenSansLightItalic.ttf") format("truetype"),
+    url("../fonts/OpenSansLightItalic/OpenSansLightItalic.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'OpenSansRegular';
+  font-display: swap;
+  src: url("../fonts/OpenSansRegular/OpenSansRegular.eot");
+  src: local("O"), url("../fonts/OpenSansRegular/OpenSansRegular.woff") format("woff"),
+    url("../fonts/OpenSansRegular/OpenSansRegular.ttf") format("truetype"),
+    url("../fonts/OpenSansRegular/OpenSansRegular.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'OpenSansRegularItalic';
+  font-display: swap;
+  src: url("../fonts/OpenSansRegularItalic/OpenSansRegularItalic.eot");
+  src: local("O"), url("../fonts/OpenSansRegularItalic/OpenSansRegularItalic.woff") format("woff"),
+    url("../fonts/OpenSansRegularItalic/OpenSansRegularItalic.ttf") format("truetype"),
+    url("../fonts/OpenSansRegularItalic/OpenSansRegularItalic.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'OpenSansSemiBold';
+  font-display: swap;
+  src: url("../fonts/OpenSansSemiBold/OpenSansSemiBold.eot");
+  src: local("O"), url("../fonts/OpenSansSemiBold/OpenSansSemiBold.woff") format("woff"),
+    url("../fonts/OpenSansSemiBold/OpenSansSemiBold.ttf") format("truetype"),
+    url("../fonts/OpenSansSemiBold/OpenSansSemiBold.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'OpenSansSemiBoldItalic';
+  font-display: swap;
+  src: url("../fonts/OpenSansSemiBoldItalic/OpenSansSemiBoldItalic.eot");
+  src: local("O"), url("../fonts/OpenSansSemiBoldItalic/OpenSansSemiBoldItalic.woff") format("woff"),
+    url("../fonts/OpenSansSemiBoldItalic/OpenSansSemiBoldItalic.ttf") format("truetype"),
+    url("../fonts/OpenSansSemiBoldItalic/OpenSansSemiBoldItalic.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'UbuntuBold';
+  font-display: swap;
+  src: url("../fonts/UbuntuBold/UbuntuBold.eot");
+  src: local("O"), url("../fonts/UbuntuBold/UbuntuBold.woff") format("woff"),
+    url("../fonts/UbuntuBold/UbuntuBold.ttf") format("truetype"),
+    url("../fonts/UbuntuBold/UbuntuBold.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'UbuntuBoldItalic';
+  font-display: swap;
+  src: url("../fonts/UbuntuBoldItalic/UbuntuBoldItalic.eot");
+  src: local("O"), url("../fonts/UbuntuBoldItalic/UbuntuBoldItalic.woff") format("woff"),
+    url("../fonts/UbuntuBoldItalic/UbuntuBoldItalic.ttf") format("truetype"),
+    url("../fonts/UbuntuBoldItalic/UbuntuBoldItalic.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'UbuntuItalic';
+  font-display: swap;
+  src: url("../fonts/UbuntuItalic/UbuntuItalic.eot");
+  src: local("O"), url("../fonts/UbuntuItalic/UbuntuItalic.woff") format("woff"),
+    url("../fonts/UbuntuItalic/UbuntuItalic.ttf") format("truetype"),
+    url("../fonts/UbuntuItalic/UbuntuItalic.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'UbuntuLight';
+  font-display: swap;
+  src: url("../fonts/UbuntuLight/UbuntuLight.eot");
+  src: local("O"), url("../fonts/UbuntuLight/UbuntuLight.woff") format("woff"),
+    url("../fonts/UbuntuLight/UbuntuLight.ttf") format("truetype"),
+    url("../fonts/UbuntuLight/UbuntuLight.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'UbuntuLightItalic';
+  font-display: swap;
+  src: url("../fonts/UbuntuLightItalic/UbuntuLightItalic.eot");
+  src: local("O"), url("../fonts/UbuntuLightItalic/UbuntuLightItalic.woff") format("woff"),
+    url("../fonts/UbuntuLightItalic/UbuntuLightItalic.ttf") format("truetype"),
+    url("../fonts/UbuntuLightItalic/UbuntuLightItalic.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'UbuntuMedium';
+  font-display: swap;
+  src: url("../fonts/UbuntuMedium/UbuntuMedium.eot");
+  src: local("O"), url("../fonts/UbuntuMedium/UbuntuMedium.woff") format("woff"),
+    url("../fonts/UbuntuMedium/UbuntuMedium.ttf") format("truetype"),
+    url("../fonts/UbuntuMedium/UbuntuMedium.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'UbuntuMediumItalic';
+  font-display: swap;
+  src: url("../fonts/UbuntuMediumItalic/UbuntuMediumItalic.eot");
+  src: local("O"), url("../fonts/UbuntuMediumItalic/UbuntuMediumItalic.woff") format("woff"),
+    url("../fonts/UbuntuMediumItalic/UbuntuMediumItalic.ttf") format("truetype"),
+    url("../fonts/UbuntuMediumItalic/UbuntuMediumItalic.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'UbuntuRegular';
+  font-display: swap;
+  src: url("../fonts/UbuntuRegular/UbuntuRegular.eot");
+  src: local("O"), url("../fonts/UbuntuRegular/UbuntuRegular.woff") format("woff"),
+    url("../fonts/UbuntuRegular/UbuntuRegular.ttf") format("truetype"),
+    url("../fonts/UbuntuRegular/UbuntuRegular.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
