@@ -1,9 +1,19 @@
-/* header-top */
+html, body {
+  height: 100%;
+}
+
 .wrap {
-  width: 75%;
-  margin: 0 auto;
+  width: 100%;
+  max-width: 1500px;
+  margin: 0px auto;
+}
+
+/* header-top ----------------------------------------------------------------*/
+.header-top {
+  width: 100%;
+  margin: 10px auto;
   overflow: hidden;
-  padding: 15px;
+  background: #FFF;
 }
 
 .logo {
@@ -13,6 +23,7 @@
 .right_menu {
   float: right;
   margin-top: 14px;
+  font-family: UbuntuRegular, Arial, Helvetica, sans-serif;
 }
 
 .right_menu li {
@@ -33,6 +44,113 @@
   color: #64a8d6;
 }
 
-.cssmenu li:first-child a {
-  margin-left: 0;
+#nav .current a {
+  color: #64a8d6;
+}
+
+/*header----------------------------------------------------------------------*/
+.header {
+  background-image: url(../images/banner.jpg);
+  height: 843px;
+  background-position: center 100%;
+  background-repeat: no-repeat;
+}
+
+.text_slogan {
+  font-family: UbuntuBold, Arial, Helvetica, sans-serif;
+  font-size: 52px;
+  text-transform: uppercase;
+  padding-top: 240px;
+  color: white;
+  padding-left: 50px;
+  line-height: 1.5em;
+}
+
+.text_slogan_down {
+  font-size: 24px;
+  font-family: UbuntuLight, Arial, Helvetica, sans-serif;
+  color: white;
+  padding-left: 50px;
+  padding-top: 40px;
+}
+
+.text_sd_down {
+  font-family: UbuntuMedium, Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  padding-left: 50px;
+  padding-top: 70px;
+  color: white;
+}
+
+.tsd_free_span {
+  background-color: #ffce54;
+  border-radius: 3px;
+}
+
+.input_text {
+  height: 55px;
+  width: 425px;
+  margin-left: 50px;
+  margin-top: 30px;
+  font-family: UbuntuLight, Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  border-radius: 7px;
+  border: 1px solid white;
+  padding-left: 25px;
+}
+
+.it_button {
+  border: 1px solid #77c344;
+  font-family: UbuntuLight, Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  border-radius: 7px;
+  height: 60px;
+  width: 110px;
+  background-color: #77c344;
+  color: white;
+}
+
+/* header-bottom ----------------------------------------------------------------*/
+.company {
+  display: grid;
+  width: 100%;
+  height: 100px;
+  grid-template-areas: "evertone microsoft google sony firefox";
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 100px;
+  background: #f8f8f8;
+}
+
+.container>div {
+  border: 1px dashed #888;
+}
+
+.evertone {
+  grid-area: evertone;
+  align-self: center;
+  justify-self: center;
+}
+
+.microsoft {
+  grid-area: microsoft;
+  align-self: center;
+  justify-self: center;
+}
+
+.google {
+  grid-area: google;
+  align-self: center;
+  justify-self: center;
+}
+
+.sony {
+  grid-area: sony;
+  align-self: center;
+  justify-self: center;
+}
+
+.firefox {
+  grid-area: firefox;
+  align-self: center;
+  justify-self: center;
 }
