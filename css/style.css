@@ -227,13 +227,13 @@
   margin-bottom: 20px;
 }
 
-div.diffrent {
+div.different {
   height: 732px;
   background: #efefef url(../images/ships.png)100% 100% no-repeat;
   position: relative;
 }
 
-.diffrent-h {
+.different-h {
   font-family: UbuntuRegular, Arial, Helvetica, sans-serif;
   font-size: 39px;
   color: #2d394c;
@@ -244,7 +244,7 @@ div.diffrent {
   transform-origin: left center;
 }
 
-.diffrent-h2 {
+.different-h2 {
   margin-left: 216px;
   margin-bottom: 34px;
   margin-top: 162px;
@@ -254,13 +254,13 @@ div.diffrent {
   text-align: left;
 }
 
-.diffrent-h2 img {
+.different-h2 img {
   position: absolute;
   left: 124px;
   top: 349px;
 }
 
-.diffrent-p {
+.different-p {
   padding-left: 128px;
   padding-right: 647px;
   font-family: UbuntuRegular, Arial, Helvetica, sans-serif;
