@@ -1,5 +1,4 @@
 .wrap {
-  width: 100%;
   max-width: 1500px;
   margin: 0px auto;
 }
@@ -157,8 +156,6 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
-  align-content: center;
-  width: 100%;
   height: 100px;
   background: #f8f8f8;
 }
@@ -168,17 +165,17 @@
   position: relative;
   width: 100%;
   height: 1017px;
-  background: url(../images/macbook.png) 100% 69% no-repeat;
+  background: url(../images/macbook.png) 100% 70% no-repeat;
 }
 
 .why-tank {
-  color: #2d394c;
+  color: #5a626e;
   font-family: UbuntuRegular, Arial, Helvetica, sans-serif;
   width: 315px;
   height: 40px;
   position: absolute;
   top: 112px;
-  left: 547px;
+  left: 587px;
   font-size: 39px;
   text-transform: uppercase;
   transform-origin: left center;
@@ -193,7 +190,7 @@
 .why-tank-p .why-p p {
   font-family: UbuntuRegular, Arial, Helvetica, sans-serif;
   font-size: 14px;
-  color: #9499a2;
+  color: #5a626e;
   text-align: left;
   line-height: 22px;
 }
@@ -236,7 +233,7 @@ div.different {
 .different-h {
   font-family: UbuntuRegular, Arial, Helvetica, sans-serif;
   font-size: 39px;
-  color: #2d394c;
+  color: #5a626e;
   text-align: left;
   padding-top: 157px;
   margin-left: 470px;
@@ -250,7 +247,7 @@ div.different {
   margin-top: 162px;
   font-family: UbuntuRegular, Arial, Helvetica, sans-serif;
   font-size: 28px;
-  color: #2d394c;
+  color: #5a626e;
   text-align: left;
 }
 
@@ -293,4 +290,127 @@ div.page {
   color: white;
   background: #64a4d7;
   border-radius: 50%;
+}
+
+.singup {
+  height: 480px;
+}
+
+.singup h3 {
+  font-family: UbuntuRegular, Arial, Helvetica, sans-serif;
+  font-size: 40px;
+  color: #5a626e;
+  text-align: center;
+  text-transform: uppercase;
+  padding-top: 140px;
+}
+
+.singup p {
+  font-family: UbuntuItalic, Arial, Helvetica, sans-serif;
+  font-size: 24px;
+  color: #5a626e;
+  text-align: center;
+  line-height: 100px;
+}
+
+.singup form {
+  margin-top: 29px;
+  margin-left: 322px;
+}
+
+.singup input[type=email] {
+  width: 550px;
+  height: 66px;
+  border-radius: 4px;
+  font-size: 18px;
+  line-height: 133px;
+  padding-left: 77px;
+  border: 1px solid #d1d1d1;
+  background: url("../images/letter.png") 25px center no-repeat;
+}
+
+.singup input::placeholder {
+  opacity: 0.3;
+  font-weight: 300;
+  font-family: OpenSansRegular, Arial, Helvetica, sans-serif;
+  font-size: 21px;
+}
+
+.singup button.green-button {
+  width: 190px;
+  height: 70px;
+  border-radius: 3px;
+  color: #ffffff;
+  background: #77c344;
+  font-weight: 500;
+  margin-left: 31px;
+  cursor: pointer;
+  border: none;
+  font-size: 20px;
+  font-family: UbuntuRegular, Arial, Helvetica, sans-serif;
+}
+
+/*footer content--------------------------------------------------------------*/
+footer {
+  height: 139px;
+  background: #f9f9f9;
+  position: relative;
+}
+
+.logo-footer {
+  position: absolute;
+  left: 130px;
+  bottom: 53px;
+}
+
+.footer-nav {
+  display: inline-block;
+  float: left;
+  margin-left: 703px;
+  padding-top: 58px;
+}
+
+footer nav a {
+  display: inline-block;
+  text-decoration: none;
+  font-family: UbuntuRegular, Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  color: #5e6673;
+  text-align: left;
+  text-transform: uppercase;
+  margin-right: 32px;
+}
+
+footer nav a:last-child {
+  margin-right: 0;
+}
+
+.divider:after {
+  content: "|";
+  font-size: 1rem;
+}
+
+.social {
+  display: inline-block;
+  float: right;
+  width: 250px;
+  padding-top: 55px;
+}
+
+.twit {
+  width: 22px;
+  height: 22px;
+  margin-left: 22px;
+}
+
+.face {
+  width: 22px;
+  height: 23px;
+  margin-left: 23px;
+}
+
+.goog {
+  width: 22px;
+  height: 22px;
+  margin-left: 22px;
 }
