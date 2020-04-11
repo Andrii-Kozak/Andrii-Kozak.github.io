@@ -13,13 +13,14 @@
 
 .logo {
   float: left;
-  margin-left: 50px;
+  margin-left: 4%;
 }
 
 .right-menu {
   float: right;
   margin-top: 14px;
   font-family: UbuntuRegular, Arial, Helvetica, sans-serif;
+  margin-right: 1%;
 }
 
 .right-menu li {
@@ -161,7 +162,7 @@ header .right-menu nav .current a {
   background: #f8f8f8;
 }
 
-/*main content----------------------------------------------------------------*/
+/*main content part 1---------------------------------------------------------*/
 .why-tank-app {
   background: #FFF;
   padding: 6% 0;
@@ -190,6 +191,12 @@ header .right-menu nav .current a {
 
 .picture {
   text-align: right;
+  min-width: 550px;
+}
+
+.picture img {
+  width: 100%;
+  height: 100%;
 }
 
 .text .why-logo {
@@ -213,6 +220,7 @@ header .right-menu nav .current a {
   padding-bottom: 20px;
 }
 
+/*main content part 2---------------------------------------------------------*/
 div.different {
   height: 732px;
   background: #efefef url(../images/ships.png)100% 100% no-repeat;
@@ -243,15 +251,37 @@ div.different {
 }
 
 .different-p {
-  padding-left: 128px;
-  padding-right: 647px;
   font-family: UbuntuRegular, Arial, Helvetica, sans-serif;
   font-size: 16px;
   line-height: 32px;
   color: #9499a2;
   text-align: left;
+  width: 43%;
+  max-height: 300px;
+  padding-left: 128px;
+  overflow: auto;
 }
 
+.pages {
+  font-family: UbuntuRegular, Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  color: #9499a2;
+  justify-content: space-around;
+  display: flex;
+  padding-left: 45%;
+  padding-right: 45%;
+  padding-top: 10%;
+}
+
+.pages .page-one {
+  color: white;
+  background: #64a4d7;
+  border-radius: 50%;
+  padding-right: 4px;
+  padding-left: 4px;
+}
+
+/*
 div.page {
   display: inline-block;
   font-family: UbuntuRegular, Arial, Helvetica, sans-serif;
@@ -276,7 +306,8 @@ div.page {
   background: #64a4d7;
   border-radius: 50%;
 }
-
+*/
+/*main content part 3---------------------------------------------------------*/
 .singup {
   height: 480px;
 }
@@ -299,12 +330,11 @@ div.page {
 }
 
 .singup form {
-  margin-top: 29px;
-  margin-left: 322px;
+  text-align: center;
 }
 
 .singup input[type=email] {
-  width: 550px;
+  width: 40%;
   height: 66px;
   border-radius: 4px;
   font-size: 18px;
@@ -336,27 +366,24 @@ div.page {
 }
 
 /*footer content--------------------------------------------------------------*/
-footer {
+.footer-content {
   height: 139px;
   background: #f9f9f9;
-  position: relative;
+  display: flex;
+  justify-content: space-around;
 }
 
 .logo-footer {
-  position: absolute;
-  left: 130px;
-  bottom: 53px;
+  margin-left: 4%;
+  margin-top: 4%;
 }
 
 .footer-nav {
-  display: inline-block;
-  float: left;
-  margin-left: 703px;
-  padding-top: 58px;
+  margin-left: 20%;
+  padding-top: 4%;
 }
 
 footer nav a {
-  display: inline-block;
   text-decoration: none;
   font-family: UbuntuRegular, Arial, Helvetica, sans-serif;
   font-size: 14px;
@@ -366,36 +393,20 @@ footer nav a {
   margin-right: 32px;
 }
 
-footer nav a:last-child {
-  margin-right: 0;
-}
-
 .divider:after {
   content: "|";
-  font-size: 1rem;
+  font-size: 14px;
 }
 
 .social {
-  display: inline-block;
-  float: right;
-  width: 250px;
-  padding-top: 55px;
-}
-
-.twit {
-  width: 22px;
-  height: 22px;
-  margin-left: 22px;
+  margin-right: 1%;
+  padding-top: 4%;
 }
 
 .face {
-  width: 22px;
-  height: 23px;
   margin-left: 23px;
 }
 
 .goog {
-  width: 22px;
-  height: 22px;
   margin-left: 22px;
 }
