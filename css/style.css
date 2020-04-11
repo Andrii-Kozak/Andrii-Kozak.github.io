@@ -36,11 +36,11 @@
   text-decoration: none;
 }
 
-#nav a:hover {
+.right-menu nav a:hover {
   color: #64a8d6;
 }
 
-#nav .current a {
+header .right-menu nav .current a {
   color: #64a8d6;
 }
 
@@ -50,6 +50,7 @@
   height: 843px;
   background-position: center 100%;
   background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .text-slogan {
@@ -162,66 +163,54 @@
 
 /*main content----------------------------------------------------------------*/
 .why-tank-app {
+  background: #FFF;
+  padding: 6% 0;
   position: relative;
-  width: 100%;
-  height: 1017px;
-  background: url(../images/macbook.png) 100% 70% no-repeat;
 }
 
-.why-tank {
-  color: #5a626e;
-  font-family: UbuntuRegular, Arial, Helvetica, sans-serif;
-  width: 315px;
-  height: 40px;
-  position: absolute;
-  top: 112px;
-  left: 587px;
-  font-size: 39px;
+.why-tank-part1 {
+  text-align: center;
   text-transform: uppercase;
-  transform-origin: left center;
-}
-
-.why-tank-p {
-  padding-top: 281px;
-  padding-right: 850px;
-  padding-left: 148px;
-}
-
-.why-tank-p .why-p p {
+  font-size: 39px;
   font-family: UbuntuRegular, Arial, Helvetica, sans-serif;
-  font-size: 14px;
   color: #5a626e;
-  text-align: left;
-  line-height: 22px;
+  padding-bottom: 82px;
 }
 
-.why-tank-p .why-logo {
+.why-tank-part2 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.text {
+  width: 43%;
+  margin-left: 50px;
+  min-width: 500px;
+}
+
+.picture {
+  text-align: right;
+}
+
+.text .why-logo {
   font-family: UbuntuRegular, Arial, Helvetica, sans-serif;
   font-size: 22px;
   color: #646464;
   text-align: left;
-  padding-left: 60px;
-}
-
-.why-logo {
-  position: relative;
+  padding-left: 10px;
 }
 
 .why-logo img {
-  position: absolute;
-  left: -10px;
-  top: -10px;
+  padding-right: 20px;
 }
 
-.why-tank-p div.why-p {
-  width: 500px;
-  height: 102px;
-  margin-top: 21px;
-  margin-bottom: 10px;
-}
-
-.why-tank-p div.why-p.second {
-  margin-bottom: 20px;
+.text .why-p {
+  font-family: UbuntuRegular, Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  color: #5a626e;
+  line-height: 22px;
+  padding-top: 15px;
+  padding-bottom: 20px;
 }
 
 div.different {
@@ -232,29 +221,25 @@ div.different {
 
 .different-h {
   font-family: UbuntuRegular, Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
   font-size: 39px;
   color: #5a626e;
-  text-align: left;
+  text-align: center;
   padding-top: 157px;
-  margin-left: 470px;
-  text-transform: uppercase;
-  transform-origin: left center;
 }
 
 .different-h2 {
-  margin-left: 216px;
-  margin-bottom: 34px;
-  margin-top: 162px;
   font-family: UbuntuRegular, Arial, Helvetica, sans-serif;
   font-size: 28px;
   color: #5a626e;
   text-align: left;
+  margin-left: 165px;
+  margin-bottom: 34px;
+  margin-top: 100px;
 }
 
 .different-h2 img {
-  position: absolute;
-  left: 124px;
-  top: 349px;
+  padding-right: 20px;
 }
 
 .different-p {
