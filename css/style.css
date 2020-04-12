@@ -166,7 +166,6 @@ header .right-menu nav .current a {
 .why-tank-app {
   background: #FFF;
   padding: 6% 0;
-  position: relative;
 }
 
 .why-tank-part1 {
@@ -240,7 +239,6 @@ div.different {
   font-family: UbuntuRegular, Arial, Helvetica, sans-serif;
   font-size: 28px;
   color: #5a626e;
-  text-align: left;
   margin-left: 165px;
   margin-bottom: 34px;
   margin-top: 100px;
@@ -252,19 +250,16 @@ div.different {
 
 .different-p {
   font-family: UbuntuRegular, Arial, Helvetica, sans-serif;
-  font-size: 16px;
   line-height: 32px;
   color: #9499a2;
-  text-align: left;
   width: 43%;
-  max-height: 300px;
+  min-width: 560px;
   padding-left: 128px;
-  overflow: auto;
 }
 
 .pages {
   font-family: UbuntuRegular, Arial, Helvetica, sans-serif;
-  font-size: 15px;
+  font-size: 16px;
   color: #9499a2;
   justify-content: space-around;
   display: flex;
@@ -276,9 +271,12 @@ div.different {
 .pages .page-one {
   color: white;
   background: #64a4d7;
+}
+
+.pages .page {
   border-radius: 50%;
-  padding-right: 4px;
-  padding-left: 4px;
+  margin-right: 15px;
+  padding: 5px 8px;
 }
 
 /*
@@ -371,6 +369,7 @@ div.page {
   background: #f9f9f9;
   display: flex;
   justify-content: space-around;
+  min-width: 1044px;
 }
 
 .logo-footer {
