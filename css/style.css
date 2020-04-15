@@ -21,6 +21,10 @@
   text-transform: uppercase;
 }
 
+.why-tank-title, .different-title, .singup h3, .singup p, .singup form {
+  text-align: center;
+}
+
 .singup-button {
   background-color: #77c344;
   cursor: pointer;
@@ -59,11 +63,7 @@
   text-decoration: none;
 }
 
-.right-menu nav a:hover {
-  color: #64a8d6;
-}
-
-header .right-menu nav .link-blue a {
+.right-menu nav a:hover, .right-menu nav .link-blue a {
   color: #64a8d6;
 }
 
@@ -137,7 +137,6 @@ header .right-menu nav .link-blue a {
 }
 
 .why-tank-title {
-  text-align: center;
   font-size: 39px;
   padding-bottom: 82px;
 }
@@ -187,7 +186,6 @@ div.different {
 
 .different-title {
   font-size: 39px;
-  text-align: center;
   padding-top: 157px;
 }
 
@@ -232,19 +230,13 @@ div.different {
 
 .singup h3 {
   font-size: 40px;
-  text-align: center;
   padding-top: 140px;
 }
 
 .singup p {
   font-family: UbuntuItalic, Arial, Helvetica, sans-serif;
   font-size: 24px;
-  text-align: center;
   line-height: 100px;
-}
-
-.singup form {
-  text-align: center;
 }
 
 .singup input[type=email] {
