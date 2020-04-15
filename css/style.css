@@ -1,6 +1,31 @@
 .wrap {
-  max-width: 1500px;
   margin: 0px auto;
+  max-width: 2160px;
+  font-family: UbuntuRegular, Arial, Helvetica, sans-serif;
+  color: #5a626e;
+}
+
+.text-slogan-down, .input-text {
+  font-family: UbuntuLight, Arial, Helvetica, sans-serif;
+}
+
+.text-slogan, .singup-button {
+  font-family: UbuntuBold, Arial, Helvetica, sans-serif;
+}
+
+.singup-button, .text-slogan, .text-slogan-down, .text-sd-down, .pagination .page-selected {
+  color: white;
+}
+
+.right-menu li a, .text-slogan, .why-tank-title, .different-title, .singup h3, footer nav a {
+  text-transform: uppercase;
+}
+
+.singup-button {
+  background-color: #77c344;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
 }
 
 /* header-top ----------------------------------------------------------------*/
@@ -18,9 +43,8 @@
 
 .right-menu {
   float: right;
-  margin-top: 14px;
-  font-family: UbuntuRegular, Arial, Helvetica, sans-serif;
-  margin-right: 1%;
+  margin-top: 9px;
+  margin-right: 10px;
 }
 
 .right-menu li {
@@ -30,10 +54,8 @@
 .right-menu li a {
   color: #878787;
   display: block;
-  margin: 0px 20px;
+  margin: 0px 30px;
   font-size: 15px;
-  font-weight: 500;
-  text-transform: uppercase;
   text-decoration: none;
 }
 
@@ -41,33 +63,32 @@
   color: #64a8d6;
 }
 
-header .right-menu nav .current a {
+header .right-menu nav .link-blue a {
   color: #64a8d6;
+}
+
+.pagination, .different-text {
+  color: #9499a2;
 }
 
 /*header----------------------------------------------------------------------*/
 .header-main {
   background-image: url(../images/banner.jpg);
-  height: 843px;
+  height: 1320px;
   background-position: center 100%;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .text-slogan {
-  font-family: UbuntuBold, Arial, Helvetica, sans-serif;
   font-size: 52px;
-  text-transform: uppercase;
-  padding-top: 240px;
-  color: white;
+  padding-top: 280px;
   padding-left: 50px;
   line-height: 1.5em;
 }
 
 .text-slogan-down {
   font-size: 24px;
-  font-family: UbuntuLight, Arial, Helvetica, sans-serif;
-  color: white;
   padding-left: 50px;
   padding-top: 40px;
 }
@@ -77,10 +98,9 @@ header .right-menu nav .current a {
   font-size: 16px;
   padding-left: 50px;
   padding-top: 70px;
-  color: white;
 }
 
-.tsd-free-span {
+.free-span {
   background-color: #ffce54;
   border-radius: 3px;
 }
@@ -90,70 +110,18 @@ header .right-menu nav .current a {
   width: 425px;
   margin-left: 50px;
   margin-top: 30px;
-  font-family: UbuntuLight, Arial, Helvetica, sans-serif;
   font-size: 18px;
   border-radius: 7px;
-  border: 1px solid white;
+  border: none;
   padding-left: 25px;
 }
 
 .it-button {
-  border: 1px solid #77c344;
-  font-family: UbuntuLight, Arial, Helvetica, sans-serif;
   font-size: 18px;
-  border-radius: 7px;
   height: 60px;
   width: 110px;
-  background-color: #77c344;
-  color: white;
 }
 
-/* header-bottom -------------------------------------------------------------*/
-/* переробив на flex
-.company {
-  display: grid;
-  width: 100%;
-  height: 100px;
-  grid-template-areas: "evernote microsoft google sony firefox";
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-  grid-template-rows: 100px;
-  background: #f8f8f8;
-}
-
-.container>div {
-  border: 1px dashed #888;
-}
-
-.evernote {
-  grid-area: evernote;
-  align-self: center;
-  justify-self: center;
-}
-
-.microsoft {
-  grid-area: microsoft;
-  align-self: center;
-  justify-self: center;
-}
-
-.google {
-  grid-area: google;
-  align-self: center;
-  justify-self: center;
-}
-
-.sony {
-  grid-area: sony;
-  align-self: center;
-  justify-self: center;
-}
-
-.firefox {
-  grid-area: firefox;
-  align-self: center;
-  justify-self: center;
-}
-*/
 .company {
   display: flex;
   justify-content: space-around;
@@ -162,22 +130,19 @@ header .right-menu nav .current a {
   background: #f8f8f8;
 }
 
-/*main content part 1---------------------------------------------------------*/
+/*main content ---------------------------------------------------------------*/
 .why-tank-app {
   background: #FFF;
   padding: 6% 0;
 }
 
-.why-tank-part1 {
+.why-tank-title {
   text-align: center;
-  text-transform: uppercase;
   font-size: 39px;
-  font-family: UbuntuRegular, Arial, Helvetica, sans-serif;
-  color: #5a626e;
   padding-bottom: 82px;
 }
 
-.why-tank-part2 {
+.why-tank-container {
   display: flex;
   justify-content: space-between;
 }
@@ -188,18 +153,16 @@ header .right-menu nav .current a {
   min-width: 500px;
 }
 
-.picture {
+.macbook {
   text-align: right;
-  min-width: 550px;
 }
 
-.picture img {
+.macbook img {
   width: 100%;
   height: 100%;
 }
 
 .text .why-logo {
-  font-family: UbuntuRegular, Arial, Helvetica, sans-serif;
   font-size: 22px;
   color: #646464;
   text-align: left;
@@ -210,35 +173,26 @@ header .right-menu nav .current a {
   padding-right: 20px;
 }
 
-.text .why-p {
-  font-family: UbuntuRegular, Arial, Helvetica, sans-serif;
+.text div p {
   font-size: 14px;
-  color: #5a626e;
   line-height: 22px;
   padding-top: 15px;
   padding-bottom: 20px;
 }
 
-/*main content part 2---------------------------------------------------------*/
 div.different {
-  height: 732px;
   background: #efefef url(../images/ships.png)100% 100% no-repeat;
   position: relative;
 }
 
-.different-h {
-  font-family: UbuntuRegular, Arial, Helvetica, sans-serif;
-  text-transform: uppercase;
+.different-title {
   font-size: 39px;
-  color: #5a626e;
   text-align: center;
   padding-top: 157px;
 }
 
 .different-h2 {
-  font-family: UbuntuRegular, Arial, Helvetica, sans-serif;
   font-size: 28px;
-  color: #5a626e;
   margin-left: 165px;
   margin-bottom: 34px;
   margin-top: 100px;
@@ -248,81 +202,43 @@ div.different {
   padding-right: 20px;
 }
 
-.different-p {
-  font-family: UbuntuRegular, Arial, Helvetica, sans-serif;
+.different-text {
   line-height: 32px;
-  color: #9499a2;
   width: 43%;
   min-width: 560px;
   padding-left: 128px;
 }
 
-.pages {
-  font-family: UbuntuRegular, Arial, Helvetica, sans-serif;
+.pagination {
   font-size: 16px;
-  color: #9499a2;
   justify-content: space-around;
   display: flex;
-  padding-left: 45%;
-  padding-right: 45%;
-  padding-top: 10%;
+  padding: 50px 45% 50px 45%;
 }
 
-.pages .page-one {
-  color: white;
+.pagination .page-selected {
   background: #64a4d7;
 }
 
-.pages .page {
+.pagination .page {
   border-radius: 50%;
   margin-right: 15px;
   padding: 5px 8px;
 }
 
-/*
-div.page {
-  display: inline-block;
-  font-family: UbuntuRegular, Arial, Helvetica, sans-serif;
-  font-size: 15px;
-  color: #9499a2;
-  text-align: left;
-  margin-right: 5px;
-  width: 15px;
-  height: 15px;
-  padding: 5px;
-  text-align: center;
-}
-
-.page4 {
-  position: absolute;
-  bottom: 124px;
-  left: 740px;
-}
-
-.page4 .one {
-  color: white;
-  background: #64a4d7;
-  border-radius: 50%;
-}
-*/
-/*main content part 3---------------------------------------------------------*/
 .singup {
   height: 480px;
 }
 
 .singup h3 {
-  font-family: UbuntuRegular, Arial, Helvetica, sans-serif;
   font-size: 40px;
-  color: #5a626e;
   text-align: center;
-  text-transform: uppercase;
   padding-top: 140px;
 }
 
 .singup p {
   font-family: UbuntuItalic, Arial, Helvetica, sans-serif;
   font-size: 24px;
-  color: #5a626e;
   text-align: center;
   line-height: 100px;
 }
@@ -349,18 +265,11 @@ div.page {
   font-size: 21px;
 }
 
-.singup button.green-button {
+.singup button {
   width: 190px;
   height: 70px;
-  border-radius: 3px;
-  color: #ffffff;
-  background: #77c344;
-  font-weight: 500;
   margin-left: 31px;
-  cursor: pointer;
-  border: none;
   font-size: 20px;
-  font-family: UbuntuRegular, Arial, Helvetica, sans-serif;
 }
 
 /*footer content--------------------------------------------------------------*/
@@ -369,7 +278,6 @@ div.page {
   background: #f9f9f9;
   display: flex;
   justify-content: space-around;
-  min-width: 1044px;
 }
 
 .logo-footer {
@@ -378,17 +286,15 @@ div.page {
 }
 
 .footer-nav {
-  margin-left: 20%;
+  margin-left: 10%;
   padding-top: 4%;
 }
 
 footer nav a {
   text-decoration: none;
-  font-family: UbuntuRegular, Arial, Helvetica, sans-serif;
   font-size: 14px;
   color: #5e6673;
   text-align: left;
-  text-transform: uppercase;
   margin-right: 32px;
 }
 
@@ -398,14 +304,10 @@ footer nav a {
 }
 
 .social {
-  margin-right: 1%;
-  padding-top: 4%;
+  padding-top: 3%;
+  margin: 5px;
 }
 
-.face {
-  margin-left: 23px;
-}
-
-.goog {
+.social a {
   margin-left: 22px;
 }
