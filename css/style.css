@@ -1,38 +1,305 @@
-/* header-top */
 .wrap {
-  width: 75%;
-  margin: 0 auto;
+  margin: 0px auto;
+  max-width: 2160px;
+  font-family: UbuntuRegular, Arial, Helvetica, sans-serif;
+  color: #5a626e;
+}
+
+.text-slogan-down, .input-text {
+  font-family: UbuntuLight, Arial, Helvetica, sans-serif;
+}
+
+.text-slogan, .singup-button {
+  font-family: UbuntuBold, Arial, Helvetica, sans-serif;
+}
+
+.singup-button, .text-slogan, .text-slogan-down, .text-sd-down, .pagination .page-selected {
+  color: white;
+}
+
+.right-menu li a, .text-slogan, .why-tank-title, .different-title, .singup h3, footer nav a {
+  text-transform: uppercase;
+}
+
+.why-tank-title, .different-title, .singup h3, .singup p, .singup form {
+  text-align: center;
+}
+
+.singup-button {
+  background-color: #77c344;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+}
+
+/* header-top ----------------------------------------------------------------*/
+.header-top {
+  width: 100%;
+  margin: 15px auto;
   overflow: hidden;
-  padding: 15px;
+  background: #FFF;
 }
 
 .logo {
   float: left;
+  margin-left: 4%;
 }
 
-.right_menu {
+.right-menu {
   float: right;
-  margin-top: 14px;
+  margin-top: 9px;
+  margin-right: 10px;
 }
 
-.right_menu li {
+.right-menu li {
   display: inline-block;
 }
 
-.right_menu li a {
+.right-menu li a {
   color: #878787;
   display: block;
-  margin: 0px 20px;
+  margin: 0px 30px;
   font-size: 15px;
-  font-weight: 500;
-  text-transform: uppercase;
   text-decoration: none;
 }
 
-#nav a:hover {
+.right-menu nav a:hover, .right-menu nav .link-blue a {
   color: #64a8d6;
 }
 
-.cssmenu li:first-child a {
-  margin-left: 0;
+.pagination, .different-text {
+  color: #9499a2;
+}
+
+/*header----------------------------------------------------------------------*/
+.header-main {
+  background-image: url(../images/banner.jpg);
+  height: 1320px;
+  background-position: center 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.text-slogan {
+  font-size: 52px;
+  padding-top: 280px;
+  padding-left: 50px;
+  line-height: 1.5em;
+}
+
+.text-slogan-down {
+  font-size: 24px;
+  padding-left: 50px;
+  padding-top: 40px;
+}
+
+.text-sd-down {
+  font-family: UbuntuMedium, Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  padding-left: 50px;
+  padding-top: 70px;
+}
+
+.free-span {
+  background-color: #ffce54;
+  border-radius: 3px;
+}
+
+.input-text {
+  height: 55px;
+  width: 425px;
+  margin-left: 50px;
+  margin-top: 30px;
+  font-size: 18px;
+  border-radius: 7px;
+  border: none;
+  padding-left: 25px;
+}
+
+.it-button {
+  font-size: 18px;
+  height: 60px;
+  width: 110px;
+}
+
+.company {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100px;
+  background: #f8f8f8;
+}
+
+/*main content ---------------------------------------------------------------*/
+.why-tank-app {
+  background: #FFF;
+  padding: 6% 0;
+}
+
+.why-tank-title {
+  font-size: 39px;
+  padding-bottom: 82px;
+}
+
+.why-tank-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.text {
+  width: 43%;
+  margin-left: 50px;
+  min-width: 500px;
+}
+
+.macbook {
+  text-align: right;
+}
+
+.macbook img {
+  width: 100%;
+  height: 100%;
+}
+
+.text .why-logo {
+  font-size: 22px;
+  color: #646464;
+  text-align: left;
+  padding-left: 10px;
+}
+
+.why-logo img {
+  padding-right: 20px;
+}
+
+.text div p {
+  font-size: 14px;
+  line-height: 22px;
+  padding-top: 15px;
+  padding-bottom: 20px;
+}
+
+div.different {
+  background: #efefef url(../images/ships.png)100% 100% no-repeat;
+  position: relative;
+}
+
+.different-title {
+  font-size: 39px;
+  padding-top: 157px;
+}
+
+.different-h2 {
+  font-size: 28px;
+  margin-left: 165px;
+  margin-bottom: 34px;
+  margin-top: 100px;
+}
+
+.different-h2 img {
+  padding-right: 20px;
+}
+
+.different-text {
+  line-height: 32px;
+  width: 43%;
+  min-width: 560px;
+  padding-left: 128px;
+}
+
+.pagination {
+  font-size: 16px;
+  justify-content: space-around;
+  display: flex;
+  padding: 50px 45% 50px 45%;
+}
+
+.pagination .page-selected {
+  background: #64a4d7;
+}
+
+.pagination .page {
+  border-radius: 50%;
+  margin-right: 15px;
+  padding: 5px 8px;
+}
+
+.singup {
+  height: 480px;
+}
+
+.singup h3 {
+  font-size: 40px;
+  padding-top: 140px;
+}
+
+.singup p {
+  font-family: UbuntuItalic, Arial, Helvetica, sans-serif;
+  font-size: 24px;
+  line-height: 100px;
+}
+
+.singup input[type=email] {
+  width: 40%;
+  height: 66px;
+  border-radius: 4px;
+  font-size: 18px;
+  line-height: 133px;
+  padding-left: 77px;
+  border: 1px solid #d1d1d1;
+  background: url("../images/letter.png") 25px center no-repeat;
+}
+
+.singup input::placeholder {
+  opacity: 0.3;
+  font-weight: 300;
+  font-family: OpenSansRegular, Arial, Helvetica, sans-serif;
+  font-size: 21px;
+}
+
+.singup button {
+  width: 190px;
+  height: 70px;
+  margin-left: 31px;
+  font-size: 20px;
+}
+
+/*footer content--------------------------------------------------------------*/
+.footer-content {
+  height: 139px;
+  background: #f9f9f9;
+  display: flex;
+  justify-content: space-around;
+}
+
+.logo-footer {
+  margin-left: 4%;
+  margin-top: 4%;
+}
+
+.footer-nav {
+  margin-left: 10%;
+  padding-top: 4%;
+}
+
+footer nav a {
+  text-decoration: none;
+  font-size: 14px;
+  color: #5e6673;
+  text-align: left;
+  margin-right: 32px;
+}
+
+.divider:after {
+  content: "|";
+  font-size: 14px;
+}
+
+.social {
+  padding-top: 3%;
+  margin: 5px;
+}
+
+.social a {
+  margin-left: 22px;
 }
